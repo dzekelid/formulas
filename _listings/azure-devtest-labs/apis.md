@@ -11,8 +11,8 @@ tags:
 - Stack Network
 - Orchestration
 - Microsoft
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Formulas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-name-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
