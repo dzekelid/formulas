@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: DevTestLabsClient
-  description: The DevTest Labs Client.
+  title: Azure DevTest Labs API Formulas Delete
+  description: Delete formula.
   version: 1.0.0
 host: management.azure.com
 basePath: /
