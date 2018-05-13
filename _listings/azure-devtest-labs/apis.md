@@ -26,16 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-name-delete.md
-- name: Azure DevTest Labs API Formulas Create Or Update
-  description: Create or replace an existing Formula. This operation can take a while
-    to complete.
+- name: Azure DevTest Labs API Formulas Delete
+  description: Delete formula.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
   humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
   baseURL: http:://management.azure.com//
   tags: Formulas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-name-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-name-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-name-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
