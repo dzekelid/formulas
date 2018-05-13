@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-name-delete.md
-- name: Azure DevTest Labs API Formulas List
-  description: List formulas in a given lab.
+- name: Azure DevTest Labs API Formulas Get
+  description: Get formula.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
   humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
   baseURL: http:://management.azure.com//
   tags: Formulas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-name-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/formulas/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-formulas-name-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
